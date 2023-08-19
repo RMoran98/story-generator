@@ -1,0 +1,6 @@
+/*Global override styling to prevent the page extending past the browser width*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
