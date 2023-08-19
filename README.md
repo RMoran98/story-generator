@@ -2,7 +2,6 @@
 
 ## Features
 ### Existing Features
-### Features Left to Implement
 #### Header
 - The page title and a short description telling the user how to play the game.
 #### Word Selection
@@ -14,6 +13,7 @@
 - The space where the story will be generated, featuring a message letting the user know they have not generated a story yet, which can be replaced with the story by the relevant function when the user is ready.
 #### Footer
 - A thank you for visiting the website, and an invitation to play the game again.
+### Features Left to Implement
 #### Script
 - A function to assign all of the user input words to variables, so that they can be used in the functions which generate the story.
 - Some generic words assigned to the necessary variables by default, to be displayed if the user fails to input anything.
