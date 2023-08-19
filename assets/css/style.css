@@ -1,6 +1,36 @@
-/*Global override styling to prevent the page extending past the browser width*/
+/*global override styling to prevent the page extending past the browser width*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* flexbox for the main section */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* backgrounds, borders and padding */
+header,
+footer,
+div {
+    padding: 20px;
+    background-color: #c0c0c0;
+}
+
+header {
+    border-bottom: 4px double #8b8b8b;
+}
+
+footer {
+    border-top: 4px double #8b8b8b;
+}
+
+div {
+    border: 4px double #8b8b8b;
+    width: 75%;
 }
