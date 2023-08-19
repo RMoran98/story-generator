@@ -26,6 +26,28 @@
         <!--The input area, which features two subsections-->
         <div>
             <!--The user input fields for the words to be used in the generated story-->
+            <span>
+                <label for="adjective">An adjective: </label>
+                <input id="adjective" type="text">
+            </span>
+            <span>
+                <label for="color">A color: </label>
+                <input id="color" type="text">
+            </span>
+            <span>
+                <label for="creature">A magical creature: </label>
+                <input id="creature" type="text">
+            </span>
+            <span>
+                <label for="food">A food (singular): </label>
+                <input id="food" type="text">
+            </span>
+            <span>
+                <label for="job">A job name: </label>
+                <input id="job" type="text">
+            </span>
+            <!--This button will update the variables in the script file with ther user inputted words-->
+            <button aria-label="This button will submit your words to the story generator">Submit words</button>
             <!--Story selection, would the user like a fairytale or a heroic adventure-->
             <button aria-label="This button will choose the fairytale story" data-type="fairytale">
                 <i class="fa-solid fa-crown fa-lg"></i>
