@@ -5,16 +5,20 @@
     box-sizing: border-box;
 }
 
-/* flexbox for the main section */
+/* body and main flexbox and spacing */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
-/* backgrounds, borders and padding */
+/* header, footer, div, span: spacing and colors */
 header,
 footer,
 div {
@@ -33,4 +37,17 @@ footer {
 div {
     border: 4px double #8b8b8b;
     width: 75%;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-div {
+    margin-bottom: 25px;
+}
+
+span {
+    flex-direction: column;
 }
