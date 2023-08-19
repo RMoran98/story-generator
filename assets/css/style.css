@@ -51,3 +51,23 @@ div {
 span {
     flex-direction: column;
 }
+
+/* buttons */
+button {
+    margin: 10px;
+    background-color: #f2ecff;
+    color: #00c896;
+    cursor: pointer;
+    border: 4px outset;
+    padding: 15px;
+}
+
+button:hover {
+    border: 4px inset;
+    background-color: #00c896;
+    color: #f2ecff;
+}
+
+.btn-choice {
+    flex-direction: row;
+}
