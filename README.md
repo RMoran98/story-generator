@@ -33,6 +33,28 @@ I decided to go for a simple colour scheme, so I began with a dark gray, #8b8b8b
 I decided I wanted a light gray background with black text, so I tested these colours for contrast.
 
 Finally I decided to use the mint and pastel pink colors for the buttons, to add some interest.
-### Testing
-#### Resolved bugs
+
+## Testing
+### Resolved bugs
 - Using `.innerText` in the storeWords function was failing to return the user entered values as variables as intended. Changing `.innertext` to `.value` fixed the issue.
+### Validator Testing
+#### HTML Validator
+
+#### CSS Validator
+
+#### JS Validator
+
+### Lighthouse
+
+### Responsiveness
+
+### Manual testing
+
+## Deployment
+
+## Credits
+### Tutorials
+
+### Tools and Technologies
+
+### Media
