@@ -3,6 +3,7 @@ let adjective = "clever";
 let color = "green";
 let food = "apple";
 let job = "accountant";
+let creature = "dragon";
 // Wait for the DOM to finish loading, then listen for button click events
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
@@ -26,10 +27,12 @@ function storeWords() {
     color = document.getElementById(`color`).innerText;
     food = document.getElementById(`food`).innerText;
     job = document.getElementById(`job`).innerText;
+    creature = document.getElementById(`creature`).innerText;
     console.log(`Adjective is ${adjective}`);
     console.log(`Color is ${color}`);
     console.log(`Food is ${food}`);
     console.log(`Job is ${job}`);
+    console.log(`Creature is ${creature}`);
 }
 
 /**
@@ -44,4 +47,14 @@ function storyTime(story) {
         alert(`Caution! ${story} not recognised!`);
         throw `${story} not recognised!`;
     }
+}
+
+/**
+ * Replaces the default paragraph in the final div of index.html with the fairytale story.
+ */
+function fairytaleStory() {
+    let start = document.getElementById("start");
+    let paragraph = document.createElement("p");
+    paragraph.append(`Once upon a time there was a princess who was very ${adjective}. She lived in a castle guarded by a ${creature}. The ${creature} was rather nice, so the evil wizard was jealous, and decided to give the princess a poison ${food}. Thankfully a passing ${job} recognised the ${food} was poisoned because it was ${color}, so the princess was saved. The end.`);
+    start.replaceWith(paragraph);
 }
