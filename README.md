@@ -1,5 +1,5 @@
 # Story Generator
-
+This is a simple website that will accept user input to play an ad-lib style word game. The user can choose between two stories: a fairytale and an adventure. The live link can be found [here](https://rmoran98.github.io/story-generator/).
 ## Features
 ### Existing Features
 #### Header
