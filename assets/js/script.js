@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") === "submit") {
-                alert("Saving words!");
+                storeWords();
             } else {
                 let story = this.getAttribute("data-type"); {
-                    alert(`You chose ${story}!`)
+                    storyTime(story);
                 }
             }
         })
@@ -30,4 +30,18 @@ function storeWords() {
     console.log(`Color is ${color}`);
     console.log(`Food is ${food}`);
     console.log(`Job is ${job}`);
+}
+
+/**
+ * Calls a story function based on which button was clicked, and returns an error message if the story parameter is not recognised.
+ */
+function storyTime(story) {
+    if (story === "fairytale") {
+        fairytaleStory()
+    } else if (story === "adventure") {
+        adventureStory()
+    } else {
+        alert(`Caution! ${story} not recognised!`);
+        throw `${story} not recognised!`;
+    }
 }
