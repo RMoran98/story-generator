@@ -4,7 +4,9 @@ let color = "green";
 let food = "apple";
 let job = "accountant";
 let creature = "dragon";
-// Wait for the DOM to finish loading, then listen for button click events
+/**
+ * Waits for the DOM to finish loading, then listens for button clicks and calls a different function based on which button is clicked.
+ */
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
     for (let button of buttons) {
