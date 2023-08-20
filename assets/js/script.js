@@ -1,8 +1,8 @@
 // Default attributes, so the user will not have errors or blank spaces in the generated story if they click on a story button without submitting any words
-let adjective = clever;
-let color = green;
-let food = apple;
-let job = accountant;
+let adjective = "clever";
+let color = "green";
+let food = "apple";
+let job = "accountant";
 // Wait for the DOM to finish loading, then listen for button click events
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
