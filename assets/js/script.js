@@ -1,9 +1,9 @@
 // Default variables for the words, so the user will not have errors or blank spaces in the generated story if they click on a story button without submitting anything
-let adjective = "clever";
-let color = "green";
-let food = "apple";
-let job = "accountant";
-let creature = "dragon";
+var adjective = "clever";
+var color = "green";
+var food = "apple";
+var job = "accountant";
+var creature = "dragon";
 /**
  * Waits for the DOM to finish loading, then listens for button clicks and calls a different function based on which button is clicked.
  */
@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", function () {
  * Gets the words the user types in and stores them as variables, overwiting the default values, to be used in the story functions. For testing purposes, the values are then logged to the console.
  */
 function storeWords() {
-    adjective = document.getElementById(`adjective`).innerText;
-    color = document.getElementById(`color`).innerText;
-    food = document.getElementById(`food`).innerText;
-    job = document.getElementById(`job`).innerText;
-    creature = document.getElementById(`creature`).innerText;
+    adjective = document.getElementById(`adjective`).value;
+    color = document.getElementById(`color`).value;
+    food = document.getElementById(`food`).value;
+    job = document.getElementById(`job`).value;
+    creature = document.getElementById(`creature`).value;
     console.log(`Adjective is ${adjective}`);
     console.log(`Color is ${color}`);
     console.log(`Food is ${food}`);
