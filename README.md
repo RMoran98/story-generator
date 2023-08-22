@@ -99,6 +99,7 @@ The webpage displays as intended across devices.
 
 ## Credits
 ### Tutorials
+- [Flanagan, David. JavaScript: The Definitive Guide. 7th ed., O’Reilly Media, 2020.](https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/)
 
 ### Tools and Technologies
 - This website is written in [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -114,3 +115,4 @@ The webpage displays as intended across devices.
 - I created the color palette using [My Color Space](https://mycolor.space/)
 
 ### Media
+- I used [Font Awesome](https://fontawesome.com/) for the button icons
