@@ -15,10 +15,12 @@ This is a simple website that will accept user input to play an ad-lib style wor
 #### Footer
 - A thank you for visiting the website, and an invitation to play the game again.
 #### Script
-- A function to assign all of the user input words to variables, so that they can be used in the functions which generate the story.
+- An event listener which waits for the DOM content to load and then runs the appropriate function depending on which button the user has clicked.
+- The storeWords function which assigns all of the user input words to variables, so that they can be used in the functions which generate the story.
 - Some generic words assigned to the necessary variables by default, to be displayed if the user fails to input anything.
-- A function which will check which story the user has selected, and fill the story area with the relevant story. An error alert should be displayed if the user has not selected a story.
+- The storyTime function which checks which story the user has selected, and fills the story area with the relevant story. An error alert will be displayed if the user has not selected a recognised story.
 - The newStory function reloads the webpage so that the user may create another story.
+
 ### Features Left to Implement
 - When I am more confident with JavaScript, I would like to return to the storeWords function and have it also remove any HTML tags from the created variables. This would help boost the security of the webpage by reducing the risk of an XSS attack.
 
