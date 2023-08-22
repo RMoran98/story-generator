@@ -67,10 +67,21 @@ With the colors decided, I created a wireframe of what I wanted the website to l
 - Using `.innerText` in the storeWords function was failing to return the user entered values as variables as intended. Changing `.innertext` to `.value` fixed the issue.
 ### Validator Testing
 #### HTML Validator
+The webpage passed through the HTML Validator with no warnings.
+
+[!HTML Validator](documentation/html-validate.png)
 
 #### CSS Validator
+The webpage passed through the CSS Validator with no warnings.
+
+[!CSS Validator](documentation/css-validate.png)
 
 #### JS Validator
+The JavaScript Validator threw one warning regarding the use of a for loop.
+
+[!JavaScript Validator](documentation/js-validate.png)
+
+I believe that this is not a large problem, as I have used docstrings to explain all my functions and split large tasks between the functions to keep them simple and easy to read. The for loop in question is part of the Event Listener which checks that the DOM content has loaded and then runs the appropriate function based on which button is clicked. 
 
 ### Lighthouse
 
