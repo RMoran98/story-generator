@@ -1,9 +1,11 @@
-// Default variables for the words, so the user will not have errors or blank spaces in the generated story if they click on a story button without submitting anything
-var adjective = "clever";
-var color = "green";
-var food = "apple";
-var job = "accountant";
-var creature = "dragon";
+// Default variables for the words, so the user will not have errors or blank spaces in the generated story if they click on a story button without submitting anything.
+let adjective = "clever";
+let color = "green";
+let food = "apple";
+let job = "accountant";
+let creature = "dragon";
+
+// Declaring the default paragraph in the story area as a variable, so it can be replaced later by the story functions.
 let start = document.getElementById("start");
 
 /**
