@@ -22,9 +22,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     storyTime(story);
                 }
             }
-        })
+        });
     }
-})
+});
 /**
  * Gets the words the user types in and stores them as variables, overwiting the default values, to be used in the story functions. For testing purposes, the values are then logged to the console.
  */
@@ -46,11 +46,11 @@ function storeWords() {
  */
 function storyTime(story) {
     if (story === "fairytale") {
-        fairytaleStory()
+        fairytaleStory();
     } else if (story === "adventure") {
-        adventureStory()
+        adventureStory();
     } else if (story === "again") {
-        newStory()
+        newStory();
     } else {
         alert(`Caution! ${story} not recognised!`);
         throw `${story} not recognised!`;
