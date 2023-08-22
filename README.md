@@ -1,19 +1,29 @@
 # Story Generator
 This is a simple website that will accept user input to play an ad-lib style word game. The user can choose between two stories: a fairytale and an adventure. The live link can be found [here](https://rmoran98.github.io/story-generator/).
+
 ## Features
 ### Existing Features
 #### Header
 - The page title and a short description telling the user how to play the game.
+[!Header](documentation/header.png)
+
 #### Word Selection
 - A series of input fields, allowing the user to type the words they would like used.
 - Labels for the input fields, telling the user what type of word should be input, such as adjectives, nouns, etc.
 #### Story Selection
 - Two buttons, allowing the user to select whether they would like a fairytale or a heroic adventure to be generated.
 - The third button reloads the webpage so the user can play the game again.
+[!Input Area](documentation/input.png)
+
 #### Story Area
 - The space where the story will be generated, featuring a message letting the user know they have not generated a story yet, which can be replaced with the story by the relevant function when the user is ready.
+[!Blank Story](documentation/story-blank.png)
+[!Generated Story](documentation/story-full.png)
+
 #### Footer
 - A thank you for visiting the website, and an invitation to play the game again.
+[!Footer](documentation/footer.png)
+
 #### Script
 - An event listener which waits for the DOM content to load and then runs the appropriate function depending on which button the user has clicked.
 - The storeWords function which assigns all of the user input words to variables, so that they can be used in the functions which generate the story.
