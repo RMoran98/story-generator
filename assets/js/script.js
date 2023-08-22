@@ -5,6 +5,7 @@ var food = "apple";
 var job = "accountant";
 var creature = "dragon";
 let start = document.getElementById("start");
+let paragraph;
 /**
  * Waits for the DOM to finish loading, then listens for button clicks and calls a different function based on which button is clicked.
  */
@@ -58,7 +59,7 @@ function storyTime(story) {
  * Replaces the default paragraph in the final div of index.html with the fairytale story.
  */
 function fairytaleStory() {
-    let paragraph = document.createElement("p");
+    paragraph = document.createElement("p");
     paragraph.append(`Once upon a time there was a princess who was very ${adjective}. She lived in a castle guarded by a ${creature}. The ${creature} was rather nice, so the evil wizard was jealous, and decided to give the princess a poison ${food}. Thankfully a passing ${job} recognised the ${food} was poisoned because it was ${color}, so the princess was saved. The end.`);
     start.replaceWith(paragraph);
 }
@@ -67,7 +68,7 @@ function fairytaleStory() {
  * Replaces the default paragraph in the final div of index.html with the adventure story.
  */
 function adventureStory() {
-    let paragraph = document.createElement("p");
+    paragraph = document.createElement("p");
     paragraph.append(`A ship with ${color} sails put to sea for a long journey. On their way they were stopped by a ${creature}, who was very hungry. The ${adjective} sailors were all terrified that the ${creature} would eat them. Luckily the chef remembered the ${creature}'s favourite food, and the ${job} happened to have a ${food} in his luggage. The end.`);
     start.replaceWith(paragraph);
 }
