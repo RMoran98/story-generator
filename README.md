@@ -9,6 +9,7 @@ This is a simple website that will accept user input to play an ad-lib style wor
 - Labels for the input fields, telling the user what type of word should be input, such as adjectives, nouns, etc.
 #### Story Selection
 - Two buttons, allowing the user to select whether they would like a fairytale or a heroic adventure to be generated.
+- The third button reloads the webpage so the user can play the game again.
 #### Story Area
 - The space where the story will be generated, featuring a message letting the user know they have not generated a story yet, which can be replaced with the story by the relevant function when the user is ready.
 #### Footer
@@ -17,8 +18,9 @@ This is a simple website that will accept user input to play an ad-lib style wor
 - A function to assign all of the user input words to variables, so that they can be used in the functions which generate the story.
 - Some generic words assigned to the necessary variables by default, to be displayed if the user fails to input anything.
 - A function which will check which story the user has selected, and fill the story area with the relevant story. An error alert should be displayed if the user has not selected a story.
+- The newStory function reloads the webpage so that the user may create another story.
 ### Features Left to Implement
-- In the future I would like to implement a clear button and script, so that the user would not have to refresh the page after generating a story to see the other one.
+- When I am more confident with JavaScript, I would like to return to the storeWords function and have it also remove any HTML tags from the created variables. This would help boost the security of the webpage by reducing the risk of an XSS attack.
 
 ### Design
 #### User Stories
