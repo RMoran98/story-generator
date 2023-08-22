@@ -101,5 +101,16 @@ The webpage displays as intended across devices.
 ### Tutorials
 
 ### Tools and Technologies
+- This website is written in [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Balsamiq](https://balsamiq.com/) was used to create the wireframes
+- [Git](https://git-scm.com/) was used for version control
+- Code was written using [VSCode](https://code.visualstudio.com/)
+- The repository was created using [this template](https://github.com/Code-Institute-Org/ci-full-template)
+- [GitHub](https://github.com/) and [GitHub Desktop](https://desktop.github.com/) host the code repository
+- Code was validated using the [HTML](https://validator.w3.org/), [CSS](https://jigsaw.w3.org/css-validator/), and [JavaScript](https://jshint.com/) validators
+- [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to test the performance and accessibility of the finished webpage
+- The [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) Chrome extension was used to check how the website would look across decices
+- [WebAIM](https://webaim.org/resources/contrastchecker/) was used to test the color contrast
+- I created the color palette using [My Color Space](https://mycolor.space/)
 
 ### Media
