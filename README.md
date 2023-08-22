@@ -1,4 +1,6 @@
 # Story Generator
+[!Am I Responsive](documentation/am-i-responsive.png)
+
 This is a simple website that will accept user input to play an ad-lib style word game. The user can choose between two stories: a fairytale and an adventure. The live link can be found [here](https://rmoran98.github.io/story-generator/).
 
 ## Features
@@ -114,6 +116,7 @@ Copy and paste `https://github.com/RMoran98/story-generator.git` into your IDE, 
 - The [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) Chrome extension was used to check how the website would look across decices
 - [WebAIM](https://webaim.org/resources/contrastchecker/) was used to test the color contrast
 - I created the color palette using [My Color Space](https://mycolor.space/)
+- [Am I Responsive](https://ui.dev/amiresponsive) was used to create the header image for this README
 
 ### Media
 - I used [Font Awesome](https://fontawesome.com/) for the button icons
