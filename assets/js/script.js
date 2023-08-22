@@ -46,6 +46,8 @@ function storyTime(story) {
         fairytaleStory()
     } else if (story === "adventure") {
         adventureStory()
+    } else if (story === "again") {
+        newStory()
     } else {
         alert(`Caution! ${story} not recognised!`);
         throw `${story} not recognised!`;
