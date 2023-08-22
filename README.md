@@ -96,6 +96,7 @@ The webpage displays as intended across devices.
 - This has been tested on Google Chrome, Firefox and Microsoft Edge on desktop and mobile.
 
 ## Deployment
+Copy and paste `https://github.com/RMoran98/story-generator.git` into your IDE, then input the following commands: `git clone`, `cd story-generator` and `clone .`
 
 ## Credits
 ### Tutorials
