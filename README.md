@@ -84,10 +84,16 @@ The JavaScript Validator threw one warning regarding the use of a for loop.
 I believe that this is not a large problem, as I have used docstrings to explain all my functions and split large tasks between the functions to keep them simple and easy to read. The for loop in question is part of the Event Listener which checks that the DOM content has loaded and then runs the appropriate function based on which button is clicked. 
 
 ### Lighthouse
+[!Lighthouse](documentation/lighthouse.png)
 
-### Responsiveness
+### Responsiveness Across Devices
+The webpage displays as intended across devices.
+
+[!Responsiveness](documentation/responsive.png)
 
 ### Manual testing
+- The functions all work as intended and are all called when the relevant button is clicked.
+- This has been tested on Google Chrome, Firefox and Microsoft Edge on desktop and mobile.
 
 ## Deployment
 
