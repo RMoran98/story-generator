@@ -29,12 +29,26 @@ This is a simple website that will accept user input to play an ad-lib style wor
 - As a repeat visitor, I would like multiple stories to try.
 - As a first time user I would like clear instructions on how to play the game.
 
+#### Planned Functions
+Based on my User Stories, I made a plan of how my website would run. I wanted the user to save words that would be inserted into the stories, ad-lib style. Next they would pick a story, or reload the page to begin again.
+
+[!Flow](documentation/flow.png)
+
 #### Color Scheme
 I decided to go for a simple colour scheme, so I began with a dark gray, #8b8b8b. From there I generated a color palette. 
 
+[!Color Palette](documentation/color-palette.png)
+
 I decided I wanted a light gray background with black text, so I tested these colours for contrast.
 
+[!Contrast](documentation/contrast-test.png)
+
 Finally I decided to use the mint and pastel pink colors for the buttons, to add some interest.
+
+#### Wireframe
+With the colors decided, I created a wireframe of what I wanted the website to look like.
+
+[!Wireframe](documentation/wireframe.png)
 
 ## Testing
 ### Resolved bugs
