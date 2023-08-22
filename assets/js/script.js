@@ -76,7 +76,7 @@ function adventureStory() {
 }
 
 /**
- * Restores the default story area text, so the fairytaleStory or adventureStory function can be used again.
+ * Reloads the page, so the fairytaleStory or adventureStory function can be used again.
  */
 function newStory() {
     location.reload();
